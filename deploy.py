@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 
 # Load the trained model and vectorizer
-model = joblib.load('svm_spam_model.pkl')
+model = joblib.load('model.pkl')
 vectorizer = joblib.load('vectorizer.pkl')
 
 # Streamlit App
